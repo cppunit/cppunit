@@ -51,4 +51,5 @@ Ran 3 checks in 0.002s
 FAILED (failures=2)
 ```
 
-
+## License
+Public Domain. For more information, please refer to <http://unlicense.org>
