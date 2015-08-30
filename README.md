@@ -2,9 +2,7 @@
 
 Single source file C++ Unit testing TDD framework with the output message format like Python unittest.
 
-No installation is required, just copy `Cppunit` class definition into your area and you are all set.
-
-https://github.com/cppunit/cppunit/blob/master/cppunit.cc
+No installation is required, just copy [cppunit.cc](cppunit.cc) class definition into your area and you are all set.
 
 ## License
 Public Domain. For more information, please refer to <http://unlicense.org>
