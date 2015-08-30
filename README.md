@@ -2,19 +2,19 @@
 
 Single source file C++ Unit testing TDD framework with the output message format like Python unittest.
 
-No installation is required, just copy [cppunit.cc](cppunit.cc) class definition into your source file and you are all set.
+No installation is required, just copy [cppunit.cc](https://github.com/cppunit/cppunit/blob/master/cppunit.cc) class definition into your source file and you are all set.
 
 ## License
 Public Domain. For more information, please refer to <http://unlicense.org>
 
 ## Usage
-1. Copy `Cppunit` class definition source code from [cppunit.cc](cppunit.cc) into your project
+1. Copy `Cppunit` class definition source code from [cppunit.cc](https://github.com/cppunit/cppunit/blob/master/cppunit.cc) into your project
 2. Derive a new class from `Cppunit`
 3. Redefine `test_list()` or `single_test()` (if only one test is needed) method of the derived class
 4. Write tests by using `CHECK*` macros and `test_cin()` to mock user's `stdin` input stream
 5. Call `run()` method of the derived class to invoke unit tests
 
-See [cppunit.cc](cppunit.cc) for a working example
+See [cppunit.cc](https://github.com/cppunit/cppunit/blob/master/cppunit.cc) for a working example
 
 ## CHECK* macros
 These macros will provide file, line and test name information in case of checking mismatch:
