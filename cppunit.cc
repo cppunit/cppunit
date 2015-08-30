@@ -42,6 +42,9 @@ class Cppunit { public:
 };
 
 
+//// Usage Examples
+
+
 // Class under test example
 class test_class {
 
