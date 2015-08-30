@@ -1,6 +1,6 @@
 # cppunit
 
-Single source file C++ Unit testing framework with the output message format like Python unittest
+Single source file C++ Unit testing TDD framework with the output message format like Python unittest
 
 https://github.com/cppunit/cppunit/blob/master/cppunit.cc
 
