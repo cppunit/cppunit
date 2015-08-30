@@ -2,7 +2,7 @@
 
 Single source file C++ Unit testing TDD framework with the output message format like Python unittest.
 
-No installation is required, just copy [cppunit.cc](cppunit.cc) class definition into your area and you are all set.
+No installation is required, just copy [cppunit.cc](cppunit.cc) class definition into your source file and you are all set.
 
 ## License
 Public Domain. For more information, please refer to <http://unlicense.org>
@@ -16,19 +16,19 @@ Public Domain. For more information, please refer to <http://unlicense.org>
 
 See [cppunit.cc](cppunit.cc) for a working example
 
-## Check macros
-These macros will provide file, line and test name information in case of failure:
+## CHECK* macros
+These macros will provide file, line and test name information in case of checking mismatch:
 
 1. Integral type match check `CHECK(2 + 3, 4)`
 2. Boolean type check `CHECKT(2 + 2 == 4)`
 3. String type match check `CHECKS("a" "b", "ac")`
 
 ## Stdin input override
-Cppunit will override user's `stdin` input stream. Use `test_cin()` method to provide the mock input stream.
+Cppunit will override user's `stdin` input stream. Use `test_cin()` method to provide user's mock input stream.
 
 `test_cin("4 1\n-3 -3 -3 -3");`
 
-This feature is useful to test programs written for online judges like: codeforces.com, topcoder.com, spoj etc.
+This feature is very useful to test programs written for online judges like: codeforces.com, topcoder.com, spoj etc.
 
 ## Passing test output
 ```
