@@ -8,7 +8,7 @@ https://github.com/cppunit/cppunit/blob/master/cppunit.cc
 1. Copy `Cppunit` class definition source code from [cppunit.cc](cppunit.cc) into your project
 2. Derive a new class from Cppunit
 3. Redefine `test_list()` or `single_test()` (if only one test is needed) method of the derived class
-4. Write tests by using CHECK* macros
+4. Write tests by using `CHECK*` macros
 5. Call `run()` method of the derived class to invoke unit tests
 
 ## Check macros
