@@ -82,10 +82,8 @@ class MyCppunit: public Cppunit {
 int main(int argc, char *argv[]) {
 
     // Run unit tests only if -ut switch is used
-    if (argc > 1 && !strcmp(argv[1], "-ut")) {
-        MyCppunit ut;
-        return ut.run();
-    }
+    if (argc > 1 && !strcmp(argv[1], "-ut"))
+        return (new MyCppunit)->run();
 
     std::cout << "NOTE: Use -ut switch to run cppunit tests";
     return 0;
