@@ -47,7 +47,6 @@ class Cppunit { public:
 
 // Class under test example
 class test_class {
-
     public: int calculate(){
         int n, m;
         std::cin >> n >> m;
@@ -58,9 +57,7 @@ class test_class {
 
 // Test example
 class MyCppunit: public Cppunit {
-
     void single_test() {
-
         // Integral type match check
         CHECK(2 + 2, 4);
 
@@ -73,7 +70,6 @@ class MyCppunit: public Cppunit {
         // Stdin override example
         test_cin("2\n2");
         CHECK((new test_class)->calculate(), 4);
-
     }
 };
 
