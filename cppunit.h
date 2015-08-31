@@ -1,3 +1,5 @@
+#ifndef CPPUNIT_H
+#define CPPUNIT_H
 
 // Required headers
 #include <iostream>
@@ -41,47 +43,5 @@ class Cppunit { public:
     run() { std::streambuf* ocin = std::cin.rdbuf(); test_list(); std::cin.rdbuf(ocin); return status(); }
 };
 
-
-//// Usage Examples
-
-
-// Class under test example
-class test_class {
-    public: int calculate(){
-        int n, m;
-        std::cin >> n >> m;
-        return n + m;
-    }
-};
-
-
-// Test example
-class MyCppunit: public Cppunit {
-    void single_test() {
-        // Integral type match check
-        CHECK(2 + 2, 4);
-
-        // Boolean type check
-        CHECKT(2 + 2 == 4);
-        
-        // String match check
-        CHECKS("a" "b", "ab");
-
-        // Stdin override example
-        test_cin("2\n2");
-        CHECK((new test_class)->calculate(), 4);
-    }
-};
-
-
-// Invocation example
-int main(int argc, char *argv[]) {
-
-    // Run unit tests only if -ut switch is used
-    if (argc > 1 && !strcmp(argv[1], "-ut"))
-        return (new MyCppunit)->run();
-
-    std::cout << "NOTE: Use -ut switch to run cppunit tests";
-    return 0;
-}
+#endif // CPPUNIT_H
 
