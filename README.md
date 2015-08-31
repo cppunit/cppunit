@@ -10,8 +10,8 @@ Public Domain. For more information, please refer to <http://unlicense.org>
 For single source file programs:
 
 1. Copy `Cppunit` class definition from [cppunit.h](https://github.com/cppunit/cppunit/blob/master/cppunit.h) into your source file
-2. Make sure you have listed all required headers
-3. It has to be located before `main()` function and unit tests
+2. Make sure you have listed all required headers or just `#include <bits/stdc++.h>` is okay
+3. It has to be located before `main()` function and all unit tests
 
 For larger projects:
 
@@ -25,10 +25,10 @@ Next steps:
 3. Write tests by using `CHECK*` macros and `test_cin()` to mock user's `stdin` input stream
 4. Instantiate and Call `run()` method of the derived class to invoke unit tests
 
-See [example.cc](https://github.com/cppunit/cppunit/blob/master/example.cc) for a working example
+See [example.cc](https://github.com/cppunit/cppunit/blob/master/example.cc) for a simple working example
 
 ## CHECK* macros
-These macros will provide file, line and test name information in case of checking mismatch:
+These macros will provide file, line and test name information in case of checking mismatches:
 
 1. Integral type match check `CHECK(2 + 3, 4)`
 2. Boolean type check `CHECKT(2 + 2 == 4)`
