@@ -41,8 +41,8 @@ Cppunit will override user's `stdin` input stream. Use `test_cin()` method to pr
 
 This feature is very useful to test programs written for online judges like: codeforces.com, topcoder.com, spoj etc.
 
-## Passed test output
-Prints the number of checks passed and the elapsed time
+## Passed tests
+In case of passed tests it prints the number of checks passed and the elapsed time
 ```
 ...
 --------------------------------------------------
@@ -51,8 +51,8 @@ Ran 3 checks in 0.002s
 OK
 ```
 
-## Failed test output
-Error messages for all failed checks
+## Failed tests
+Prints error messages for all failed checks
 ```
 F.F
 ==================================================
