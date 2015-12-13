@@ -1,5 +1,5 @@
-# cppunit
-Single source file C++ Unit testing TDD framework with the output message format like Python unittest.
+# CPlusPlusUnit
+CPlusPlusUnit - Single source file C++ Unit testing TDD framework with the output message format like Python unittest.
 
 No installation is required, just copy `Cppunit` class definition form  [cppunit.h](https://github.com/cppunit/cppunit/blob/master/cppunit.h) into your source file and you are all set.
 
