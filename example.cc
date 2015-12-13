@@ -1,6 +1,6 @@
-// Cppunit - C++ Unit testing TDD framework (github.com/cppunit/cppunit)
+// CPlusPlusUnit - C++ Unit testing TDD framework (github.com/cppunit/cppunit)
 
-//// Cppunit Usage Examples
+//// CPlusPlusUnit Usage Examples
 
 
 #include "cppunit.h"
