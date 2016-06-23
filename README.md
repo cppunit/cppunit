@@ -4,7 +4,7 @@ CPlusPlusUnit - Single source file C++ Unit testing TDD framework with the outpu
 No installation is required, just copy `Cppunit` class definition form  [cppunit.h](https://github.com/cppunit/cppunit/blob/master/cppunit.h) into your source file and you are all set.
 
 ## License
-Public Domain. For more information, please refer to <http://unlicense.org>
+This is free and unencumbered software released into the public domain. For more information, please refer to <http://unlicense.org>
 
 ## Usage
 For single source file programs:
