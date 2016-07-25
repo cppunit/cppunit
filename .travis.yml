@@ -1,3 +1,3 @@
 language: cpp
 
-script: example
+script: g++ example.cc -o example; example -ut
