@@ -24,7 +24,7 @@ class Cppunit_tests: public Cppunit {
 
         // Boolean type check
         CHECKT(2 + 2 == 4);
-        
+
         // String match check
         CHECKS("a" "b", "ab");
 
