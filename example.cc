@@ -1,12 +1,9 @@
+// CPlusPlusUnit Usage Example
+
 // CPlusPlusUnit - C++ Unit testing TDD framework (github.com/cppunit/cppunit)
-
-//// CPlusPlusUnit Usage Examples
-
-
 #include "cppunit.h"
 
-
-// Class under test example
+// Class under test
 class test_class {
     public: int calculate(){
         int n, m;
@@ -15,8 +12,7 @@ class test_class {
     }
 };
 
-
-// Test example
+// Test examples
 class Cppunit_tests: public Cppunit {
     void single_test() {
         // Integral type match check
@@ -34,8 +30,7 @@ class Cppunit_tests: public Cppunit {
     }
 };
 
-
-// Invocation example
+// Invocation example (-ut switch)
 int main(int argc, char *argv[]) {
 
     // Run unit tests only if -ut switch is used
