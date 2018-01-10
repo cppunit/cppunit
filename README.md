@@ -1,5 +1,5 @@
 # CPlusPlusUnit [![Build Status](https://travis-ci.org/Cppunit/cppunit.svg?branch=master)](https://travis-ci.org/Cppunit/cppunit)
-[CPlusPlusUnit](https://github.com/Cppunit/cppunit) - Single source file C++ Unit testing TDD framework with the output message format like Python unittest.
+[CPlusPlusUnit](https://github.com/Cppunit/cppunit) - Tiny single source file C++ Unit testing TDD framework with the output message format like Python unittest.
 
 No installation is required, just copy `Cppunit` class definition form  [cppunit.h](https://github.com/cppunit/cppunit/blob/master/cppunit.h) into your source file and you are all set.
 
