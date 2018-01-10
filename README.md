@@ -25,7 +25,7 @@ Next steps:
 3. Write tests by using `CHECK*` macros and `test_cin()` to mock user's `stdin` input stream
 4. Instantiate and Call `run()` method of the derived class to invoke unit tests
 
-See [example.cc](https://github.com/cppunit/cppunit/blob/master/example.cc) for a simple working example
+See [cppunit_test.cc](https://github.com/cppunit/cppunit/blob/master/cppunit_test.cc) for a simple working example
 
 ## CHECK* macros
 These macros will provide file, line and test name information in case of checking mismatches:
