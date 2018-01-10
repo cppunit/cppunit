@@ -1,8 +1,8 @@
 language: cpp
 
 script:
-  - g++ example.cc -o example
-  - ./example -ut
+  - g++ cppunit_test.cc -o cppunit_test
+  - ./cppunit_test
 
 notifications:
   email: true

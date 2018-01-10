@@ -1,7 +1,7 @@
 #ifndef CPPUNIT_H
 #define CPPUNIT_H
 
-// Required headers
+// Required headers, or just use #include <bits/stdc++.h>
 #include <iostream>
 #include <sstream>
 #include <cstring>
