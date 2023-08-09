@@ -30,3 +30,6 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: echo "Hello ${{ inputs.name }}"
+        - g++ cppunit_test.cc -o cppunit_test
+        - ./cppunit_test
+
