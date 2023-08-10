@@ -30,6 +30,7 @@ jobs:
     # Runs a single command using the runners shell
     #- name: Send greeting
     - run: echo "Hello ${{ inputs.name }}"
-    - run: g++ /workspaces/cppunit/cppunit_test.cc -o cppunit_test
+    - run: echo "`pwd`"
+    - run: g++ cppunit_test.cc -o cppunit_test
     - run: ./cppunit_test
 
