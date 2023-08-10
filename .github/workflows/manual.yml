@@ -31,6 +31,6 @@ jobs:
     #- name: Send greeting
     - run: echo "Hello ${{ inputs.name }}"
     - run: echo "`pwd`"
-    - run: g++ cppunit_test.cc -o cppunit_test
+    - run: g++ /home/runner/work/cppunit/cppunit/cppunit_test.cc -o cppunit_test
     - run: ./cppunit_test
 
