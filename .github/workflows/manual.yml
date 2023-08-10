@@ -33,6 +33,6 @@ jobs:
     - run: echo "`pwd`"
     - run: cd /workspaces/cppunit
     - run: echo `ls -al cppunit*`
-    - run: g++ /home/runner/work/snalajala11/cppunit/cppunit_test.cc -o cppunit_test
+    - run: g++ cppunit_test.cc -o cppunit_test
     - run: ./cppunit_test
 
